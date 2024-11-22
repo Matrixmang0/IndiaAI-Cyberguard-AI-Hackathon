@@ -31,17 +31,9 @@ This project implements a fine-tuned T5 transformer model for classifying cybers
 ├── dataset/
 │   ├── train.csv                          # Original training data
 │   └── test.csv                           # Original test data
-├── cleaned_dataset/
-│   ├── cleaned_train_dataset.csv          # Preprocessed training data
-│   └── cleaned_test_dataset.csv           # Preprocessed test data
-└── fine_tuned_t5small/                    # Fine-tuned model files
-    ├── config.json
-    ├── model.safetensors
-    ├── spiece.model
-    ├── tokenizer_config.json
-    ├── special_tokens_map.json
-    ├── generation_config.json
-    └── added_tokens.json
+└── cleaned_dataset/
+    ├── cleaned_train_dataset.csv          # Preprocessed training data
+    └── cleaned_test_dataset.csv           # Preprocessed test data
 ```
 
 ## Requirements
